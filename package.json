@@ -4,7 +4,7 @@
 	"description": "Issue Tracker Boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js",
+		"start": "node --watch server.js",
 		"test": "mocha --timeout 5000 --recursive --exit --ui tdd tests/"
 	},
 	"dependencies": {
